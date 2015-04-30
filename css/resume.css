@@ -6,13 +6,12 @@
   min-width: 370px;
   width: 70%;
   height: auto; 
-  color: #282828;
-  background-color: #F2F1EF;
+  color: #282828; 
 }
 
 .resume-container img {
   border-radius: 100%;
-  width: 80px;
+  width: 100px;
 }
 
 .resume-container h1 {
@@ -20,12 +19,13 @@
   margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
+  font-size: 2.4em;
 }
 
 .resume-container .subtitle {
   position: relative;
   font-family: "Oswald", sans-serif;
-  font-weight: 400;
+  font-weight: 400; 
   margin-bottom: 3em;
 }
 
@@ -62,7 +62,7 @@
 
 
 
-/*EDUCATION INFO*/
+/*EDUCATION & WORK INFO*/
 
 .official-info {
   position: relative;
@@ -130,4 +130,34 @@
 .sql {
   width: 40%;
   background-color: #4DAF7C;
+}
+
+
+/*INTERESTING*/
+
+.milestone {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.milestone img {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  border-radius: 100%;
+  vertical-align: top;
+}
+
+.milestone .milestone-info {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  top: 4px;
+}
+
+.milestone .milestone-info p {
+  padding-bottom: 1em;
 }
