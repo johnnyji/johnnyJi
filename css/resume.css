@@ -7,7 +7,7 @@
   width: 70%;
   height: auto; 
   color: #282828;
-  background-color: aliceblue;
+  background-color: #F2F1EF;
 }
 
 .resume-container img {
@@ -57,9 +57,38 @@
 
 .resume-container section .info p {
   font-weight: 300;
-  letter-spacing: 0.5px;
   margin: 0;
 }
+
+
+
+/*EDUCATION INFO*/
+
+.education-info {
+  position: relative;
+  display: inline-block;
+  width: 65%;
+  padding: 4px 0 15px 0;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #D2D7D3;
+}
+
+.education-info h3 {
+  margin: 0 0 15px 0;
+}
+
+.education-school {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 30%;
+  padding: 4px 0 1.5em 0;
+  padding-bottom: 1em;
+}
+
+
+
+/*SKILL BARS*/
 
 .skill-bar {
   position: relative;
@@ -75,7 +104,7 @@
 }
 
 .rails {
-  width: 80%;
+  width: 90%;
   background-color: #C0392B;
 }
 
