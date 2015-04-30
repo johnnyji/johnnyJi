@@ -1,4 +1,4 @@
-@import url("header.css");
+@import url("layout.css");
 @import url("resume.css");
 
 body, html {
@@ -17,11 +17,12 @@ a, a:focus, a:visited, a:active {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-decoration: none;
+  color: #666;
 }
 
 a:hover {
   text-decoration: none;
-  color: #666;
+  color: #282828;
 }
 
 p {

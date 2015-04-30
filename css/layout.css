@@ -1,9 +1,12 @@
 header {
-  position: relative;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   height: 60px;
   max-width: 100%;
-  border-bottom: 1px solid #DBDBDB;
+  box-shadow: 5px 0 10px #282828;
   background-color: #282828;
 }
 
@@ -34,15 +37,20 @@ header .social-media-links {
   line-height: 60px;
 }
 
-.social-link,
-.social-link:active,
-.social-link:visited,
-.social-link:focus, {
-  position: relative;
-  margin-left: 10px;
+header .social-media-links a {
   color: #FFF;
+  margin-left: 1em;
 }
 
-header .social-media-links .social-link:hover {
-  color: #b7a28d;
+
+/*FOOTER*/
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.5em;
+  height: 100px;
+  font-family: "Oswald", "Lato",sans-serif;
+  text-transform: uppercase;
+  text-align: center;
 }
