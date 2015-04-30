@@ -1,0 +1,25 @@
+@import url("header.css");
+@import url("resume.css");
+
+body, html {
+  color: #666;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a, a:focus, a:visited, a:active {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #666;
+}

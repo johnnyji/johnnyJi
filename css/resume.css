@@ -1,0 +1,95 @@
+.resume-container {
+  position: relative;
+  margin: 1em auto;
+  padding: 2em 0;
+  max-width: 1000px;
+  min-width: 370px;
+  width: 70%;
+  height: auto; 
+  color: #282828;
+  background-color: aliceblue;
+}
+
+.resume-container img {
+  border-radius: 100%;
+  width: 80px;
+}
+
+.resume-container h1 {
+  position: relative;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+.resume-container .subtitle {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+
+.resume-container section {
+  position: relative;
+  margin: 1em 0;
+  height: auto;
+  padding: 1em 0;
+}
+
+.resume-container section .title {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  margin-right: 2%;
+  text-align: right;
+  font-family: "Oswald", sans-serif;
+  color: #828282;
+  font-size: 1.4em;
+}
+
+.resume-container section .info {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 0 1em;
+}
+
+.resume-container section .info p {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.skill-bar {
+  position: relative;
+  top: 4px;
+  padding: 5px 0;
+  margin-bottom: 1em;
+}
+
+.skill-bar strong {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.rails {
+  width: 80%;
+  background-color: #C0392B;
+}
+
+.js {
+  width: 60%;
+  background-color: #F4D03F;
+}
+
+.html {
+  background-color: #F27935;
+  width: 70%;
+}
+
+.css {
+  width: 78%;
+  background-color: #9B59B6;
+}
