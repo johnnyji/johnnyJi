@@ -6,7 +6,7 @@
   min-width: 370px;
   width: 70%;
   height: auto; 
-  color: #282828; 
+  color: #282828;
 }
 
 .resume-container img {
@@ -17,14 +17,12 @@
 .resume-container h1 {
   position: relative;
   margin: 0;
-  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 2.4em;
 }
 
 .resume-container .subtitle {
   position: relative;
-  font-family: "Oswald", sans-serif;
   font-weight: 400; 
   margin-bottom: 3em;
 }
@@ -43,7 +41,6 @@
   width: 22%;
   margin-right: 2%;
   text-align: right;
-  font-family: "Oswald", sans-serif;
   color: #828282;
   font-size: 1.4em;
 }

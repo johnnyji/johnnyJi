@@ -1,4 +1,73 @@
 .index-container {
   position: relative;
-  margin: 75px auto 50px 0;
+  margin: 60px auto 0 auto;
+  padding: 50px 0;
+  height: -webkit-calc(100vh - 160px);
+  height: -moz-calc(100vh - 160px);
+  height: -ms-calc(100vh - 160px);
+  height: -o-calc(100vh - 160px);
+  height: calc(100vh - 160px);
+  background-color: #282828;
+}
+
+pre {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 46%;
+  font-size: 2em;
+  line-height: 150%;
+  color: #FFF;
+}
+
+.small-pre {
+  display: none;
+}
+
+.syntax {
+  font-weight: 600;
+}
+
+.red {
+  color: #96281B;
+}
+
+.green {
+  color: #26A65B;
+}
+
+.orange {
+  color: #F9690E;
+}
+
+.yellow {
+  color: #F5AB35;
+}
+
+.yellow a {
+  color: inherit;
+}
+
+.yellow a:hover {
+  color: #F5D76E;
+}
+
+.purple {
+  color: #8E44AD;
+}
+
+.purple a {
+  color: inherit;
+}
+
+.purple a:hover {
+  color: #BF55EC;
+}
+
+.gray {
+  color: #666;
 }

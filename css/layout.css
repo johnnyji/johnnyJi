@@ -6,7 +6,7 @@ header {
   z-index: 10;
   height: 60px;
   max-width: 100%;
-  box-shadow: 5px 0 10px #282828;
+/*  box-shadow: 5px 0 10px #282828;*/
   background-color: #282828;
 }
 
@@ -17,7 +17,6 @@ header .header-content-wrapper {
 
 header .title {
   position: relative;
-  font-family: "Oswald", "Lato",sans-serif;
   letter-spacing: 1px;
   margin: 0;
   float: left;
@@ -59,7 +58,6 @@ footer {
   margin: 0 auto;
   padding: 1.5em;
   height: 100px;
-  font-family: "Oswald", "Lato",sans-serif;
-  text-transform: uppercase;
   text-align: center;
+  background-color: #282828;
 }

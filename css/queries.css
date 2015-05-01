@@ -1,10 +1,40 @@
 @media screen and (min-width: 651px) and (max-width: 900px) {
+
+  /*hide the pre and show a different one*/
+  .big-pre {
+    display: none;
+  }
+  .small-pre {
+    display: block;
+    font-size: 1.7em;
+  }
+
   .resume-container {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 650px) {
+
+  header {
+    font-size: 0.8em;
+  }
+
+  .big-pre {
+    display: none;
+  }
+
+  .small-pre {
+    display: block;
+    left: 43%;
+    line-height: 180%;
+    font-size: 1.3em;
+  }
+
+  footer {
+    font-size: 0.85em;
+  }
+
   .resume-container {
     width: 95%;
     margin-top: 2.5em;
@@ -52,8 +82,12 @@
     margin-bottom: 2em;
   }
 
+  .work-experience {
+    top: 2em;
+  }
+
   .interesting {
-    top: 2em; 
+    top: 4em; 
   }
 
   .interesting img {
