@@ -1,0 +1,76 @@
+@media screen and (min-width: 651px) and (max-width: 900px) {
+  .resume-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .resume-container {
+    width: 95%;
+    margin-top: 2.5em;
+  }
+
+  .resume-container section .title {
+    display: block;
+    margin: 0 auto 1em auto;
+    width: 95%;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .resume-container section .info {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .resume-title .info h1,
+  .resume-title .info .subtitle {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .official-info {
+    display: block;
+    width: 100%;
+    border-bottom: none;
+    margin: 1em auto 0 auto;
+  }
+
+  .official-additional {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 1em;
+  }
+  .official-additional p {
+    padding-bottom: 0.5em;
+  }
+
+  .experience {
+    margin-bottom: 2em;
+  }
+
+  .interesting {
+    top: 2em; 
+  }
+
+  .interesting img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .milestone {
+    width: 100%;
+  }
+
+  .milestone-info {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .title img {
+    margin-left: 0.3em;
+  }
+}

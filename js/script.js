@@ -7,4 +7,5 @@ $(function onDocumentReady() {
   replaceLinksWithIcons('linkedin', 'https://www.linkedin.com/pub/johnny-ji/92/1b8/981');
   replaceLinksWithIcons('twitter', 'https://www.twitter.com/johnnyisji');
   replaceLinksWithIcons('github', 'https://www.github.com/johnnyji');
+
 });
