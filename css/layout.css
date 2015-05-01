@@ -28,7 +28,7 @@ header .title {
 }
 
 header .title:hover {
-  color: #b7a28d;
+  top: -3px;
 }
 
 header .social-media-links {
@@ -38,8 +38,17 @@ header .social-media-links {
 }
 
 header .social-media-links a {
+  position: relative;
   color: #FFF;
   margin-left: 1em;
+}
+
+header .social-media-links a:hover {
+  top: -2px;
+}
+
+header .icon-size {
+  font-size: 1.8em;
 }
 
 
