@@ -1,4 +1,4 @@
-@media screen and (min-width: 651px) and (max-width: 900px) {
+@media screen and (min-width: 651px) and (max-width: 1000px) {
 
   /*hide the pre and show a different one*/
   .big-pre {
@@ -86,13 +86,19 @@
     top: 2em;
   }
 
-  .interesting {
+  .interesting,
+  .projects {
     top: 4em; 
   }
 
-  .interesting img {
+  .interesting img,
+  .projects img {
     width: 80px;
     height: 80px;
+  }
+
+  .project-container .project-info p {
+    padding-bottom: 0;
   }
 
   .milestone {

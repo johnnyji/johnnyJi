@@ -1,0 +1,44 @@
+.projects-container {
+  position: relative;
+  margin: 80px auto 50px auto;
+  padding: 2em 0;
+  max-width: 1200px;
+  min-width: 370px;
+  width: 70%;
+  height: auto; 
+  color: #282828;
+}
+
+.project-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 2.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.project-container img {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  border-radius: 100%;
+  vertical-align: top;
+  top: 1em;
+}
+
+.project-container h1 {
+  color: #666;
+}
+
+.project-container .project-info {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  top: 4px;
+}
+
+.project-container .project-info p strong {
+  font-size: 1.15em;
+}
