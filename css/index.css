@@ -1,12 +1,12 @@
+.index-header {
+  position: relative;
+  height: 10vh;
+}
+
 .index-container {
   position: relative;
   margin: 60px auto 0 auto;
-  padding: 50px 0;
-  height: -webkit-calc(100vh - 160px);
-  height: -moz-calc(100vh - 160px);
-  height: -ms-calc(100vh - 160px);
-  height: -o-calc(100vh - 160px);
-  height: calc(100vh - 160px);
+  height: 75vh;
   background-color: #282828;
 }
 
@@ -26,6 +26,12 @@ pre {
 
 .small-pre {
   display: none;
+}
+
+.index-footer {
+  position: relative;
+  bottom: 0;
+  height: 15vh;
 }
 
 .syntax {
