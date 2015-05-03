@@ -1,12 +1,20 @@
+.index-wrapper {
+  background-color: #282828;
+  height: 100%;
+  width: 100%;
+}
+
 .index-header {
   position: relative;
-  height: 10vh;
+  top: 0;
+  height: 60px;
+  font-size: 0.9em;
 }
 
 .index-container {
   position: relative;
-  margin: 60px auto 0 auto;
-  height: 75vh;
+  margin: 0 auto;
+  height: 100vh;
   background-color: #282828;
 }
 
@@ -29,9 +37,10 @@ pre {
 }
 
 .index-footer {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  text-align: center;
   bottom: 0;
-  height: 15vh;
 }
 
 .syntax {
