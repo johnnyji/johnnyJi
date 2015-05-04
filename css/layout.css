@@ -6,7 +6,6 @@ header {
   z-index: 10;
   height: 60px;
   max-width: 100%;
-/*  box-shadow: 5px 0 10px #282828;*/
   background-color: #282828;
 }
 
@@ -58,6 +57,7 @@ footer {
   margin: 0 auto;
   padding: 1.5em;
   height: 100px;
+  line-height: 140%;
   text-align: center;
   background-color: #282828;
 }
