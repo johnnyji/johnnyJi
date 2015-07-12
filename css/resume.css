@@ -5,7 +5,7 @@
   max-width: 1200px;
   min-width: 370px;
   width: 70%;
-  height: auto; 
+  height: auto;
   color: #282828;
 }
 
@@ -23,7 +23,7 @@
 
 .resume-container .subtitle {
   position: relative;
-  font-weight: 400; 
+  font-weight: 400;
   margin-bottom: 3em;
 }
 
@@ -110,13 +110,18 @@
   background-color: #C0392B;
 }
 
+.flux {
+  width: 59%;
+  background-color: #81CFE0;
+}
+
 .react {
-  width: 68%;
+  width: 75%;
   background-color: #3498db;
 }
 
 .js {
-  width: 60%;
+  width: 68%;
   background-color: #F4D03F;
 }
 
