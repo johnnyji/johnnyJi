@@ -105,23 +105,30 @@
   margin-left: 10px;
 }
 
+
+
+.node {
+  width: 55%;
+  background-color: #019875;
+}
+
 .rails {
-  width: 88%;
+  width: 85%;
   background-color: #C0392B;
 }
 
 .flux {
-  width: 59%;
+  width: 65%;
   background-color: #81CFE0;
 }
 
 .react {
-  width: 75%;
+  width: 90%;
   background-color: #3498db;
 }
 
 .js {
-  width: 68%;
+  width: 73%;
   background-color: #F4D03F;
 }
 
@@ -131,7 +138,7 @@
 }
 
 .css {
-  width: 82%;
+  width: 80%;
   background-color: #9B59B6;
 }
 
