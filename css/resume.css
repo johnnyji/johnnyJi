@@ -97,6 +97,7 @@
   padding: 5px 0;
   margin-bottom: 1em;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 
 .skill-bar strong {
@@ -106,20 +107,19 @@
 }
 
 
+.mongo {
+  width: 50%;
+  background-color: #4DAF7C;
+}
 
 .node {
-  width: 55%;
+  width: 70%;
   background-color: #019875;
 }
 
 .rails {
-  width: 85%;
+  width: 80%;
   background-color: #C0392B;
-}
-
-.flux {
-  width: 65%;
-  background-color: #81CFE0;
 }
 
 .react {
@@ -128,23 +128,23 @@
 }
 
 .js {
-  width: 73%;
+  width: 90%;
   background-color: #F4D03F;
 }
 
-.html {
+.html-css {
   background-color: #F27935;
   width: 70%;
 }
 
-.css {
-  width: 80%;
+.elixir {
+  width: 10%;
   background-color: #9B59B6;
 }
 
 .sql {
   width: 40%;
-  background-color: #4DAF7C;
+  background-color: #81CFE0;
 }
 
 
