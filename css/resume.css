@@ -107,7 +107,7 @@
 
 
 .mongo {
-  width: 50%;
+  width: 53%;
   background-color: #4DAF7C;
 }
 
@@ -117,13 +117,13 @@
 }
 
 .rails {
-  width: 80%;
+  width: 60%;
   background-color: #C0392B;
 }
 
 .react {
   width: 90%;
-  background-color: #3498db;
+  background-color: #81CFE0;
 }
 
 .js {
@@ -131,19 +131,14 @@
   background-color: #F4D03F;
 }
 
-.html-css {
-  background-color: #F27935;
-  width: 70%;
-}
-
 .elixir {
-  width: 10%;
+  width: 75%;
   background-color: #9B59B6;
 }
 
 .sql {
-  width: 40%;
-  background-color: #81CFE0;
+  width: 55%;
+  background-color: #3498db;
 }
 
 
