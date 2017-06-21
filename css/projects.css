@@ -42,3 +42,8 @@
 .project-container .project-info p strong {
   font-size: 1.15em;
 }
+
+.project-footer a {
+  color: inherit;
+  font-weight: normal;
+}

@@ -9,17 +9,14 @@ body, html {
 }
 
 a, a:focus, a:visited, a:active {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   text-decoration: none;
-  color: #666;
+  color: #8E44AD;
+  font-weight: bold;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #8E44AD;
+  color: #BE90D4;
+  text-decoration: underline;
 }
 
 p {

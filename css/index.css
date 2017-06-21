@@ -43,6 +43,11 @@ pre {
   bottom: 0;
 }
 
+.index-footer a {
+  color: inherit;
+  font-weight: normal;
+}
+
 .syntax {
   font-weight: 600;
 }
@@ -80,11 +85,7 @@ pre {
 }
 
 .purple a {
-  color: inherit;
-}
-
-.purple a:hover {
-  color: #BE90D4;
+  font-weight: normal;
 }
 
 .gray {

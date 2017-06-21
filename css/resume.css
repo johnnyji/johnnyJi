@@ -107,7 +107,7 @@
 
 
 .mongo {
-  width: 53%;
+  width: 50%;
   background-color: #4DAF7C;
 }
 
@@ -132,12 +132,12 @@
 }
 
 .elixir {
-  width: 75%;
-  background-color: #9B59B6;
+  width: 80%;
+  background-color: #BE90D4;
 }
 
 .sql {
-  width: 55%;
+  width: 65%;
   background-color: #3498db;
 }
 
@@ -164,9 +164,15 @@
   position: relative;
   display: inline-block;
   width: 70%;
-  top: 4px;
+  top:
+  4px;
 }
 
 .milestone .milestone-info p {
   padding-bottom: 1em;
+}
+
+.resume-footer a {
+  color: inherit;
+  font-weight: normal;
 }
